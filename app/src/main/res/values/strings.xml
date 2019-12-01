@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BrainTrainer</string>
+    <string name="brain">Brain Trainer</string>
+
+    <string name="sumButton">যোগ</string>
+    <string name="subButton">বিয়োগ</string>
+    <string name="multiplyButton">গুণ</string>
+    <string name="divideTextButton">ভাগ</string>
+</resources>

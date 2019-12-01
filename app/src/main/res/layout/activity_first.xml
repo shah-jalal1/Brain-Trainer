@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C3161"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FirstActivity">
+
+    <Button
+        android:id="@+id/sumButtonId"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00A05151"
+        android:text="@string/sumButton"
+        android:textColor="#20110B"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/subButtonId"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00A05151"
+        android:text="@string/subButton"
+        android:textColor="#20110B"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/mulButtonId"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00A05151"
+        android:text="@string/multiplyButton"
+        android:textColor="#20110B"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/divideButtonId"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00A05151"
+        android:bufferType="normal"
+        android:capitalize="none"
+        android:text="@string/divideTextButton"
+        android:textColor="#20110B"
+        android:textSize="20sp" />
+</LinearLayout>
